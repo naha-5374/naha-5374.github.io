@@ -1,15 +1,13 @@
 language: ruby
-
 script: echo 'deploy'
-
 deploy:
   provider: heroku
   api_key:
-    secure: IKDMvlhBYvhy6Hazj4uwQ4e17OtcuSI9msOWHKOYquzkma/3oFd4WiTNo+jEUabQ83NiT8hHBJW+JfXTn5q3qqUGhFWDsLVtL5y3Zfz4MCL6Lmt2eTfjuCv0QIPjHA/MG6tw8w50XynZXp1WFBh+qmroHRQ9QRpazN5a3KImBPs=
-  app:
-    naha-city: naha-5374
-
+    secure: C+//k0VRhtfxuY9KINsMYUMWdGshdw6IP1bZlRIGhJeuEOV35i/hw86CVc/zh68ZWH17l7/AarDJwmFgQaFi9gew/AsbPOVrQD+9G+PzyrI2uccBt5nNPUHgbMSwUfcVNDVj7Hqp6bMdrd2VBBqzwtC+nKi57dGi+aPkHEyS8BQ=
+  app: naha-5374
+  on:
+    repo: okinawarb/5374
+    branch: naha-city
 notifications:
   webhooks:
-    - https://idobata.io/hook/fd96c318-a0fc-4019-9bfa-3c5b061ebb77
-
+  - https://idobata.io/hook/fd96c318-a0fc-4019-9bfa-3c5b061ebb77
