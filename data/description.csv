@@ -1,1 +1,12 @@
 label,sublabel,description,styles,bgcolor
+もやすごみ,,,img/moyasu02.svg,#ea3b13
+もやさないごみ,,,img/moyasanai02.svg,#733b96
+ゆうがいごみ,,,img/kiken.svg,#ff8f10
+きけんごみ,,,img/kiken.svg,#ffb260
+その他ごみ,,,img/kiken.svg,#ffc282
+そ大ごみ,,,img/sodai.xvg,#f496ba
+草木,,,img/shigen02.svg,#27a047
+びん,,,img/bin02.svg,#2dc7aa
+かん,,,img/bin02.svg,#2dc7aa
+ペットボトル,,,img/bin02.svg,#2dc7aa
+紙・布,,,img/bin02.svg,#91dde7
