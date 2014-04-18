@@ -6,7 +6,7 @@ deploy:
     secure: C+//k0VRhtfxuY9KINsMYUMWdGshdw6IP1bZlRIGhJeuEOV35i/hw86CVc/zh68ZWH17l7/AarDJwmFgQaFi9gew/AsbPOVrQD+9G+PzyrI2uccBt5nNPUHgbMSwUfcVNDVj7Hqp6bMdrd2VBBqzwtC+nKi57dGi+aPkHEyS8BQ=
   app: naha-5374
   on:
-    repo: okinawarb/5374
+    repo: okinawarb/naha-city-5374
     branch: naha-city
 notifications:
   webhooks:
